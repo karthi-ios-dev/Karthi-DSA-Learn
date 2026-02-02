@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .onAppear {
-            KStrings().SortingTwoStrings("acb")
+            print( ReverseWordsInString().ReverseWord())
             
         }
         .padding()
